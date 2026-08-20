@@ -102,3 +102,4 @@ export default {
             await InteractionHelper.safeEditReply(interaction, { embeds: [embed] });
     }, { command: 'daily' })
 };
+DAILY_AMOUNT={"100"}

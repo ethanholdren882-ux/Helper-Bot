@@ -80,7 +80,7 @@ export default {
                     iconURL: interaction.user.displayAvatarURL(),
                 });
 
-            logger.info(`[ECONOMY] Balance retrieved`, { userId: targetUser.id, wallet, bank });
+            logger.info(`[ECONOMY] Balance retrieved`, { userId: targetUser.id, wallet, bank });++++++
 
             await InteractionHelper.safeEditReply(interaction, { embeds: [embed] });
     }, { command: 'balance' })
